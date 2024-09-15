@@ -28,5 +28,5 @@ Section:NewButton("Start script Avatar", "YEY", function()
 end)
 Library:ToggleUIGui({
     Icons = "rbxassetid://16393121436",
-    Rainbow = true
+    Rainbow = false
 })
