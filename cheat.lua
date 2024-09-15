@@ -2,3 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 local Window = Library.CreateLib("BILL", "RJTheme3")
 local Tab = Window:NewTab("Slap Battles")
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Welcome!",Text = "Welcome to Hub BILL.",Icon = "rbxassetid://7733960981",Duration = 10})
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Script/main/Kavo.lua"))()
+local Window = Library.CreateLib("Kykyryz0 Hub | Slap Battles", "DarkTheme")
+local Tab = Window:NewTab("INFO")
+local Section = Tab:NewSection("Creator")
