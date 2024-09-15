@@ -28,24 +28,7 @@ Section:NewButton("Start script Avatar", "YEY", function()
 end)
 Library:ToggleUIGui({
     Icons = "rbxassetid://16393121436",
-    Rainbow = false
+    Rainbow = true
 })
 
--- Создаем ScreenGui
-local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "CustomGui"
-screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
--- Создаем Frame (основа для GUI)
-local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0.3, 0, 0.3, 0)  -- Размер фрейма (можешь изменить под свои нужды)
-frame.Position = UDim2.new(0.35, 0, 0.35, 0)  -- Позиция фрейма на экране
-frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)  -- Цвет фона фрейма
-frame.Parent = screenGui
-
--- Создаем ImageLabel для отображения изображения
-local imageLabel = Instance.new("ImageLabel")
-imageLabel.Size = UDim2.new(1, 0, 1, 0)  -- Размер изображения соответствует размеру фрейма
-imageLabel.Position = UDim2.new(0, 0, 0, 0)
-imageLabel.Image = "rbxassetid://16393121436"  -- Замени на свой assetId изображения
-imageLabel.Parent = frame
