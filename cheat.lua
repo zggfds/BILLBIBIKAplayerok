@@ -47,5 +47,5 @@ frame.Parent = screenGui
 local imageLabel = Instance.new("ImageLabel")
 imageLabel.Size = UDim2.new(1, 0, 1, 0)  -- Размер изображения соответствует размеру фрейма
 imageLabel.Position = UDim2.new(0, 0, 0, 0)
-imageLabel.Image = "rbxassetid://ИД_ТВОЕГО_ИЗОБРАЖЕНИЯ"  -- Замени на свой assetId изображения
+imageLabel.Image = "rbxassetid://16393121436"  -- Замени на свой assetId изображения
 imageLabel.Parent = frame
