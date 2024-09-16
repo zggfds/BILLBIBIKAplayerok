@@ -15,8 +15,8 @@ local Window = Library.CreateLib("playerokBILL Hub | Slap Battles", "DarkTheme")
 local Tab = Window:NewTab("PLAYEROK")
 local Section = Tab:NewSection("Script")
 
-Section:NewButton("Click to copy", "If You Have Bug Or Ideas DM Me", function()
-    setclipboard('kykyryzo8')
+Section:NewButton("BOB", "If You Have Bug Or Ideas DM Me", function()
+    loadstring(game:HttpGet"https://pastefy.app/r06ZOHBh/raw")()
 end)
     
 Section:NewButton("Start script HUB TRAP", "YEY", function()
